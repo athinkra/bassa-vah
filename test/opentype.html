@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bassa Vah Opentype test</title>
+
+<style>
+
+        @font-face {
+            font-family: "Bassa Vah OT";
+            src: url("JGBassaVahUnicode.ot.ttf");
+          }
+
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        #fonttest {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sample {
+            font-family: 'Bassa Vah OT';
+            font-size: 2.5em;
+        }
+
+        .cv01 {
+            -webkit-font-feature-settings: "cv01" 1;
+            -ms-font-feature-settings: "cv01" 1;
+            font-feature-settings: "cv01" 1;
+        }
+
+        .cv02 {
+            -webkit-font-feature-settings: "cv02" 1;
+            -ms-font-feature-settings: "cv02" 1;
+            font-feature-settings: "cv02" 1;
+        }
+</style>
+</head>
+<body>
+<div id="fonttest">
+<h1>Bassa Vah Opentype font test</h1>
+<h2>Consonants</h2>
+<p class="sample">𖫐 𖫑 𖫒 𖫓 𖫔 𖫕 𖫖 𖫗 𖫘 𖫙 𖫚 𖫛 𖫜 𖫝 𖫞 𖫟 𖫠 𖫡 𖫢 𖫣 𖫤 𖫥 𖫦 𖫧 𖫨
+𖫩 𖫪 𖫫 𖫬 𖫭</p>
+<h2>Vowels</h2>
+<p class="sample">𖫧 𖫨 𖫩 𖫪 𖫫 𖫬 𖫭</p>
+<h3>Vowels and tones</h3>
+<p class="sample">𖫧𖫰 𖫧𖫱 𖫧𖫲 𖫧𖫳 𖫧𖫴<br>
+𖫨𖫰 𖫨𖫱 𖫨𖫲 𖫨𖫳 𖫨𖫴<br>
+𖫩𖫰 𖫩𖫱 𖫩𖫲 𖫩𖫳 𖫩𖫴<br>
+𖫪𖫰 𖫪𖫱 𖫪𖫲 𖫪𖫳 𖫪𖫴<br>
+𖫫𖫰 𖫫𖫱 𖫫𖫲 𖫫𖫳 𖫫𖫴<br>
+𖫬𖫰 𖫬𖫱 𖫬𖫲 𖫬𖫳 𖫬𖫴<br>
+𖫭𖫰 𖫭𖫱 𖫭𖫲 𖫭𖫳 𖫭𖫴</p>
+<h3>Alternative tone markers (3rd and 5th tones)</h3>
+<p class="sample"><span class="cv02">𖫲 𖫴 𖫧𖫲 𖫨𖫲 𖫩𖫲 𖫪𖫲 𖫫𖫲 𖫬𖫲
+𖫭𖫲</span><br>
+<span class="cv01">𖫴 𖫲 𖫧𖫴 𖫨𖫴 𖫩𖫴 𖫪𖫴 𖫫𖫴 𖫬𖫴 𖫭𖫴</span></p>
+<h2>Punctuation</h2>
+<p class="sample">𖫵</p>
+</div>
+</body>
+</html>
