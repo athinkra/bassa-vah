@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<font name="JGBassaVahUnicode" upem="1000">
+
+<glyph PSName="NULL"/>
+<glyph PSName="space" UID="0020"/>
+<glyph PSName="exclam" UID="0021"/>
+<glyph PSName="quotedbl" UID="0022"/>
+<glyph PSName="numbersign" UID="0023"/>
+<glyph PSName="dollar" UID="0024"/>
+<glyph PSName="percent" UID="0025"/>
+<glyph PSName="ampersand" UID="0026"/>
+<glyph PSName="quotesingle" UID="0027"/>
+<glyph PSName="parenleft" UID="0028"/>
+<glyph PSName="parenright" UID="0029"/>
+<glyph PSName="asterisk" UID="002A"/>
+<glyph PSName="plus" UID="002B"/>
+<glyph PSName="comma" UID="002C"/>
+<glyph PSName="hyphen" UID="002D"/>
+<glyph PSName="period" UID="002E"/>
+<glyph PSName="slash" UID="002F"/>
+<glyph PSName="zero" UID="0030"/>
+<glyph PSName="one" UID="0031"/>
+<glyph PSName="two" UID="0032"/>
+<glyph PSName="three" UID="0033"/>
+<glyph PSName="four" UID="0034"/>
+<glyph PSName="five" UID="0035"/>
+<glyph PSName="six" UID="0036"/>
+<glyph PSName="seven" UID="0037"/>
+<glyph PSName="eight" UID="0038"/>
+<glyph PSName="nine" UID="0039"/>
+<glyph PSName="colon" UID="003A"/>
+<glyph PSName="semicolon" UID="003B"/>
+<glyph PSName="less" UID="003C"/>
+<glyph PSName="equal" UID="003D"/>
+<glyph PSName="greater" UID="003E"/>
+<glyph PSName="question" UID="003F"/>
+<glyph PSName="at" UID="0040"/>
+<glyph PSName="A" UID="0041"/>
+<glyph PSName="B" UID="0042"/>
+<glyph PSName="C" UID="0043"/>
+<glyph PSName="D" UID="0044"/>
+<glyph PSName="E" UID="0045"/>
+<glyph PSName="F" UID="0046"/>
+<glyph PSName="G" UID="0047"/>
+<glyph PSName="H" UID="0048"/>
+<glyph PSName="I" UID="0049"/>
+<glyph PSName="J" UID="004A"/>
+<glyph PSName="K" UID="004B"/>
+<glyph PSName="L" UID="004C"/>
+<glyph PSName="M" UID="004D"/>
+<glyph PSName="N" UID="004E"/>
+<glyph PSName="O" UID="004F"/>
+<glyph PSName="P" UID="0050"/>
+<glyph PSName="Q" UID="0051"/>
+<glyph PSName="R" UID="0052"/>
+<glyph PSName="S" UID="0053"/>
+<glyph PSName="T" UID="0054"/>
+<glyph PSName="U" UID="0055"/>
+<glyph PSName="V" UID="0056"/>
+<glyph PSName="W" UID="0057"/>
+<glyph PSName="X" UID="0058"/>
+<glyph PSName="Y" UID="0059"/>
+<glyph PSName="Z" UID="005A"/>
+<glyph PSName="bracketleft" UID="005B"/>
+<glyph PSName="backslash" UID="005C"/>
+<glyph PSName="bracketright" UID="005D"/>
+<glyph PSName="asciicircum" UID="005E"/>
+<glyph PSName="underscore" UID="005F"/>
+<glyph PSName="grave" UID="0060"/>
+<glyph PSName="a" UID="0061"/>
+<glyph PSName="b" UID="0062"/>
+<glyph PSName="c" UID="0063"/>
+<glyph PSName="d" UID="0064"/>
+<glyph PSName="e" UID="0065"/>
+<glyph PSName="f" UID="0066"/>
+<glyph PSName="g" UID="0067"/>
+<glyph PSName="h" UID="0068"/>
+<glyph PSName="i" UID="0069"/>
+<glyph PSName="j" UID="006A"/>
+<glyph PSName="k" UID="006B"/>
+<glyph PSName="l" UID="006C"/>
+<glyph PSName="m" UID="006D"/>
+<glyph PSName="n" UID="006E"/>
+<glyph PSName="o" UID="006F"/>
+<glyph PSName="p" UID="0070"/>
+<glyph PSName="q" UID="0071"/>
+<glyph PSName="r" UID="0072"/>
+<glyph PSName="s" UID="0073"/>
+<glyph PSName="t" UID="0074"/>
+<glyph PSName="u" UID="0075"/>
+<glyph PSName="v" UID="0076"/>
+<glyph PSName="w" UID="0077"/>
+<glyph PSName="x" UID="0078"/>
+<glyph PSName="y" UID="0079"/>
+<glyph PSName="z" UID="007A"/>
+<glyph PSName="braceleft" UID="007B"/>
+<glyph PSName="bar" UID="007C"/>
+<glyph PSName="braceright" UID="007D"/>
+<glyph PSName="asciitilde" UID="007E"/>
+<glyph PSName="uni00A0" UID="00A0"/>
+<glyph PSName="exclamdown" UID="00A1"/>
+<glyph PSName="cent" UID="00A2"/>
+<glyph PSName="sterling" UID="00A3"/>
+<glyph PSName="currency" UID="00A4"/>
+<glyph PSName="yen" UID="00A5"/>
+<glyph PSName="brokenbar" UID="00A6"/>
+<glyph PSName="section" UID="00A7"/>
+<glyph PSName="dieresis" UID="00A8"/>
+<glyph PSName="copyright" UID="00A9"/>
+<glyph PSName="ordfeminine" UID="00AA"/>
+<glyph PSName="guillemotleft" UID="00AB"/>
+<glyph PSName="logicalnot" UID="00AC"/>
+<glyph PSName="uni00AD" UID="00AD"/>
+<glyph PSName="registered" UID="00AE"/>
+<glyph PSName="macron" UID="00AF"/>
+<glyph PSName="degree" UID="00B0"/>
+<glyph PSName="plusminus" UID="00B1"/>
+<glyph PSName="twosuperior" UID="00B2"/>
+<glyph PSName="threesuperior" UID="00B3"/>
+<glyph PSName="acute" UID="00B4"/>
+<glyph PSName="mu" UID="00B5"/>
+<glyph PSName="paragraph" UID="00B6"/>
+<glyph PSName="periodcentered" UID="00B7"/>
+<glyph PSName="cedilla" UID="00B8"/>
+<glyph PSName="onesuperior" UID="00B9"/>
+<glyph PSName="ordmasculine" UID="00BA"/>
+<glyph PSName="guillemotright" UID="00BB"/>
+<glyph PSName="onequarter" UID="00BC"/>
+<glyph PSName="onehalf" UID="00BD"/>
+<glyph PSName="threequarters" UID="00BE"/>
+<glyph PSName="questiondown" UID="00BF"/>
+<glyph PSName="Agrave" UID="00C0"/>
+<glyph PSName="Aacute" UID="00C1"/>
+<glyph PSName="Acircumflex" UID="00C2"/>
+<glyph PSName="Atilde" UID="00C3"/>
+<glyph PSName="Adieresis" UID="00C4"/>
+<glyph PSName="Aring" UID="00C5"/>
+<glyph PSName="AE" UID="00C6"/>
+<glyph PSName="Ccedilla" UID="00C7"/>
+<glyph PSName="Egrave" UID="00C8"/>
+<glyph PSName="Eacute" UID="00C9"/>
+<glyph PSName="Ecircumflex" UID="00CA"/>
+<glyph PSName="Edieresis" UID="00CB"/>
+<glyph PSName="Igrave" UID="00CC"/>
+<glyph PSName="Iacute" UID="00CD"/>
+<glyph PSName="Icircumflex" UID="00CE"/>
+<glyph PSName="Idieresis" UID="00CF"/>
+<glyph PSName="Eth" UID="00D0"/>
+<glyph PSName="Ntilde" UID="00D1"/>
+<glyph PSName="Ograve" UID="00D2"/>
+<glyph PSName="Oacute" UID="00D3"/>
+<glyph PSName="Ocircumflex" UID="00D4"/>
+<glyph PSName="Otilde" UID="00D5"/>
+<glyph PSName="Odieresis" UID="00D6"/>
+<glyph PSName="multiply" UID="00D7"/>
+<glyph PSName="Oslash" UID="00D8"/>
+<glyph PSName="Ugrave" UID="00D9"/>
+<glyph PSName="Uacute" UID="00DA"/>
+<glyph PSName="Ucircumflex" UID="00DB"/>
+<glyph PSName="Udieresis" UID="00DC"/>
+<glyph PSName="Yacute" UID="00DD"/>
+<glyph PSName="Thorn" UID="00DE"/>
+<glyph PSName="germandbls" UID="00DF"/>
+<glyph PSName="agrave" UID="00E0"/>
+<glyph PSName="aacute" UID="00E1"/>
+<glyph PSName="acircumflex" UID="00E2"/>
+<glyph PSName="atilde" UID="00E3"/>
+<glyph PSName="adieresis" UID="00E4"/>
+<glyph PSName="aring" UID="00E5"/>
+<glyph PSName="ae" UID="00E6"/>
+<glyph PSName="ccedilla" UID="00E7"/>
+<glyph PSName="egrave" UID="00E8"/>
+<glyph PSName="eacute" UID="00E9"/>
+<glyph PSName="ecircumflex" UID="00EA"/>
+<glyph PSName="edieresis" UID="00EB"/>
+<glyph PSName="igrave" UID="00EC"/>
+<glyph PSName="iacute" UID="00ED"/>
+<glyph PSName="icircumflex" UID="00EE"/>
+<glyph PSName="idieresis" UID="00EF"/>
+<glyph PSName="eth" UID="00F0"/>
+<glyph PSName="ntilde" UID="00F1"/>
+<glyph PSName="ograve" UID="00F2"/>
+<glyph PSName="oacute" UID="00F3"/>
+<glyph PSName="ocircumflex" UID="00F4"/>
+<glyph PSName="otilde" UID="00F5"/>
+<glyph PSName="odieresis" UID="00F6"/>
+<glyph PSName="divide" UID="00F7"/>
+<glyph PSName="oslash" UID="00F8"/>
+<glyph PSName="ugrave" UID="00F9"/>
+<glyph PSName="uacute" UID="00FA"/>
+<glyph PSName="ucircumflex" UID="00FB"/>
+<glyph PSName="udieresis" UID="00FC"/>
+<glyph PSName="yacute" UID="00FD"/>
+<glyph PSName="thorn" UID="00FE"/>
+<glyph PSName="ydieresis" UID="00FF"/>
+<glyph PSName="quoteleft" UID="2018"/>
+<glyph PSName="quoteright" UID="2019"/>
+<glyph PSName="quotesinglbase" UID="201A"/>
+<glyph PSName="quotedblleft" UID="201C"/>
+<glyph PSName="quotedblright" UID="201D"/>
+<glyph PSName="quotedblbase" UID="201E"/>
+<glyph PSName="Euro" UID="20AC"/>
+<glyph PSName="florin" UID="0192"/>
+<glyph PSName="dagger" UID="2020"/>
+<glyph PSName="daggerdbl" UID="2021"/>
+<glyph PSName="circumflex" UID="02C6"/>
+<glyph PSName="perthousand" UID="2030"/>
+<glyph PSName="Scaron" UID="0160"/>
+<glyph PSName="guilsinglleft" UID="2039"/>
+<glyph PSName="OE" UID="0152"/>
+<glyph PSName="bullet" UID="2022"/>
+<glyph PSName="endash" UID="2013"/>
+<glyph PSName="emdash" UID="2014"/>
+<glyph PSName="tilde" UID="02DC"/>
+<glyph PSName="trademark" UID="2122"/>
+<glyph PSName="scaron" UID="0161"/>
+<glyph PSName="guilsinglright" UID="203A"/>
+<glyph PSName="oe" UID="0153"/>
+<glyph PSName="Ydieresis" UID="0178"/>
+<glyph PSName="u16AF5.alt"/>
+<glyph PSName="u16AF5" UID="16AF5"/>
+<glyph PSName="u16AD4" UID="16AD4"/>
+<glyph PSName="u16AEC" UID="16AEC"/>
+<glyph PSName="u16ADD" UID="16ADD"/>
+<glyph PSName="u16AD8" UID="16AD8"/>
+<glyph PSName="u16AD5" UID="16AD5"/>
+<glyph PSName="u16AE8" UID="16AE8"/>
+<glyph PSName="u16AE0" UID="16AE0"/>
+<glyph PSName="u16AE7" UID="16AE7"/>
+<glyph PSName="u16AE2" UID="16AE2"/>
+<glyph PSName="u16ADF" UID="16ADF"/>
+<glyph PSName="u16AD7" UID="16AD7"/>
+<glyph PSName="u16AEB" UID="16AEB"/>
+<glyph PSName="u16AD3" UID="16AD3"/>
+<glyph PSName="u16AD6" UID="16AD6"/>
+<glyph PSName="u16AE4" UID="16AE4"/>
+<glyph PSName="u16AED" UID="16AED"/>
+<glyph PSName="u16AD9" UID="16AD9"/>
+<glyph PSName="u16AD1" UID="16AD1"/>
+<glyph PSName="u16ADE" UID="16ADE"/>
+<glyph PSName="u16AD0" UID="16AD0"/>
+<glyph PSName="u16AE9" UID="16AE9"/>
+<glyph PSName="u16AE5" UID="16AE5"/>
+<glyph PSName="u16AE6" UID="16AE6"/>
+<glyph PSName="u16AD2" UID="16AD2"/>
+<glyph PSName="u16AE1" UID="16AE1"/>
+<glyph PSName="u16AEA" UID="16AEA"/>
+<glyph PSName="u16AE3" UID="16AE3"/>
+<glyph PSName="u16ADB" UID="16ADB"/>
+<glyph PSName="u16ADA" UID="16ADA"/>
+<glyph PSName="u16ADC" UID="16ADC"/>
+<glyph PSName="u16AF0" UID="16AF0"/>
+<glyph PSName="u16AF1" UID="16AF1"/>
+<glyph PSName="u16AF2" UID="16AF2"/>
+<glyph PSName="u16AF3" UID="16AF3"/>
+<glyph PSName="u16AF4" UID="16AF4"/>
+<glyph PSName="u16AF4.alt"/>
+<glyph PSName="u16AF2.alt"/>
+<glyph PSName="u16AE7_16AF0"/>
+<glyph PSName="u16AE7_16AF1"/>
+<glyph PSName="u16AE7_u16AF2"/>
+<glyph PSName="u16AE7_16AF3"/>
+<glyph PSName="u16AE7_16AF4"/>
+<glyph PSName="u16AE7_u16AF4.alt"/>
+<glyph PSName="u16AE7_16AF2.alt"/>
+<glyph PSName="u16AE8_16AF0"/>
+<glyph PSName="u16AE8_16AF1"/>
+<glyph PSName="u16AE8_16AF2"/>
+<glyph PSName="u16AE8_16AF3"/>
+<glyph PSName="u16AE8_16AF4"/>
+<glyph PSName="u16AE8_16AF4.alt"/>
+<glyph PSName="u16AE8_16AF2.alt"/>
+<glyph PSName="u16AE9_16AF0"/>
+<glyph PSName="u16AE9_16AF1"/>
+<glyph PSName="u16AE9_16AF2"/>
+<glyph PSName="u16AE9_16AF3"/>
+<glyph PSName="u16AE9_16AF4"/>
+<glyph PSName="u16AE9_16AF4.alt"/>
+<glyph PSName="u16AE9_16AF2.alt"/>
+<glyph PSName="u16AEA_16AF0"/>
+<glyph PSName="u16AEA_16AF1"/>
+<glyph PSName="u16AEA_16AF2"/>
+<glyph PSName="u16AEA_16AF3"/>
+<glyph PSName="u16AEA_16AF4"/>
+<glyph PSName="u16AEA_16AF4.alt"/>
+<glyph PSName="u16AEA_16AF2.alt"/>
+<glyph PSName="u16AEB_16AF0"/>
+<glyph PSName="u16AEB_16AF1"/>
+<glyph PSName="u16AEB_16AF2"/>
+<glyph PSName="u16AEB_16AF3"/>
+<glyph PSName="u16AEB_16AF4"/>
+<glyph PSName="u16AEB_16AF4.alt"/>
+<glyph PSName="u16AEB_16AF2.alt"/>
+<glyph PSName="u16AEC_16AF0"/>
+<glyph PSName="u16AEC_16AF1"/>
+<glyph PSName="u16AEC_16AF2"/>
+<glyph PSName="u16AEC_16AF3"/>
+<glyph PSName="u16AEC_16AF4"/>
+<glyph PSName="u16AEC_16AF4.alt"/>
+<glyph PSName="u16AEC_16AF2.alt"/>
+<glyph PSName="u16AED_16AF0"/>
+<glyph PSName="u16AED_16AF1"/>
+<glyph PSName="u16AED_16AF2"/>
+<glyph PSName="u16AED_16AF3"/>
+<glyph PSName="u16AED_16AF4"/>
+<glyph PSName="u16AED_16AF4.alt"/>
+<glyph PSName="u16AED_16AF2.alt"/>
+<glyph PSName="quotereversed" UID="201B"/>
+
+</font>
