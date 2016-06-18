@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1333915717
-ModificationTime: 1466210677
+ModificationTime: 1466214169
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,9 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000101.40000000
 OS2UnicodeRanges: 8000002f.0200000a.00000000.00000000
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 3" { "'ss01' Style Set 1 lookup 3-1"  } ['ss01' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Style Set 2 lookup 4" { "'ss02' Style Set 2 lookup 4-1"  } ['ss02' ('DFLT' <'dflt' > ) ]
+Lookup: 3 0 0 "'aalt' Access All Alternates lookup 2" { "'aalt' Access All Alternates lookup 2-1"  } ['aalt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'cv02' Character Variants 02 lookup 1" { "'cv02' Character Variants 02 lookup 1-1"  } ['cv02' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "'cv01' Character Variants 01 lookup 0" { "'cv01' Character Variants 01 lookup 0-1"  } ['cv01' ('DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
@@ -48833,6 +48836,8 @@ SplineSet
  148 148 148 148 177 148 c 0,225,226
  204 148 204 148 204 121 c 0,219,220
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 4-1" u16AF2.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 2-1" u16AF2.alt
 Substitution2: "'cv02' Character Variants 02 lookup 1-1" u16AF2.alt
 EndChar
 
@@ -51051,6 +51056,8 @@ SplineSet
  148 148 148 148 177 148 c 0,231,232
  204 148 204 148 204 121 c 0,225,226
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 3-1" u16AF4.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 2-1" u16AF4.alt
 Substitution2: "'cv01' Character Variants 01 lookup 0-1" u16AF4.alt
 EndChar
 
