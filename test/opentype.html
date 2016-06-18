@@ -38,8 +38,21 @@
             font-feature-settings: "cv02";
         }
         
-        .alt {
-                font-feature-settings: "ss01" 1,"ss02" 1;
+        .ss {
+                -webkit-font-feature-settings: "ss01","ss02";
+                font-feature-settings: "ss01","ss02";
+                /* font-feature-settings: "aalt";  */
+        }
+        
+        .aalt {
+                -webkit-font-feature-settings: "aalt";
+                font-feature-settings: "aalt";
+        }
+        
+        .cv {
+                -webkit-font-feature-settings: "cv01","cv02";
+                font-feature-settings: "cv01","cv02";
+                /* font-feature-settings: "aalt";  */
         }
 </style>
 </head>
@@ -71,12 +84,20 @@
 
 <h4>Alternative tone markers (3rd and 5th tones)</h4>
 
-<p class="sample">&#x16AF2; <br> &#x16AF4; </p>
+<p class="sample cv">&#x16AF2; <br> &#x16AF4; </p>
+<p class="sample aalt">&#x16AF2; <br> &#x16AF4; </p>
+<p class="sample ss">&#x16AF2; <br> &#x16AF4; </p>
 
-<p class="sample alt">
-<span class="">&#x16AE7;&#x16AF2; &#x16AE8;&#x16AF2; &#x16AE9;&#x16AF2; &#x16AEA;&#x16AF2; &#x16AEB;&#x16AF2; &#x16AEC;&#x16AF2; &#x16AED;&#x16AF2;</span><br>
+<p class="sample cv">
+&#x16AE7;&#x16AF0; &#x16AE7;&#x16AF1; &#x16AE7;&#x16AF2; &#x16AE7;&#x16AF3; &#x16AE7;&#x16AF4;
+</p>
 
-<span class="">&#x16AE7;&#x16AF4; &#x16AE8;&#x16AF4; &#x16AE9;&#x16AF4; &#x16AEA;&#x16AF4; &#x16AEB;&#x16AF4; &#x16AEC;&#x16AF4; &#x16AED;&#x16AF4;</span>
+<p class="sample aalt">
+&#x16AE7;&#x16AF0; &#x16AE7;&#x16AF1; &#x16AE7;&#x16AF2; &#x16AE7;&#x16AF3; &#x16AE7;&#x16AF4;
+</p>
+
+<p class="sample ss">
+&#x16AE7;&#x16AF0; &#x16AE7;&#x16AF1; &#x16AE7;&#x16AF2; &#x16AE7;&#x16AF3; &#x16AE7;&#x16AF4;
 </p>
 
 <h3>Punctuation</h3>
