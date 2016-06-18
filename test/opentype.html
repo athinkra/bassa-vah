@@ -7,8 +7,8 @@
 <style>
 
         @font-face {
-            font-family: "Bassa Vah OT";
-            src: url("JGBassaVahUnicode.ot.ttf");
+            font-family: "Bassa Vah OT TEMP";
+            src: url("JGBassaVahUnicodeTEMP.ttf");
           }
 
 
@@ -22,45 +22,69 @@
             margin-right: auto;
         }
         .sample {
-            font-family: 'Bassa Vah OT';
+            font-family: 'Bassa Vah OT TEMP';
             font-size: 2.5em;
         }
 
         .cv01 {
-            -webkit-font-feature-settings: "cv01" 1;
-            -ms-font-feature-settings: "cv01" 1;
-            font-feature-settings: "cv01" 1;
+            -webkit-font-feature-settings: "cv01";
+            -ms-font-feature-settings: "cv01";
+            font-feature-settings: "cv01";
         }
 
         .cv02 {
-            -webkit-font-feature-settings: "cv02" 1;
-            -ms-font-feature-settings: "cv02" 1;
-            font-feature-settings: "cv02" 1;
+            -webkit-font-feature-settings: "cv02";
+            -ms-font-feature-settings: "cv02";
+            font-feature-settings: "cv02";
+        }
+        
+        .alt {
+                font-feature-settings: "ss01" 1,"ss02" 1;
         }
 </style>
 </head>
 <body>
 <div id="fonttest">
 <h1>Bassa Vah Opentype font test</h1>
+
 <h2>Consonants</h2>
-<p class="sample">𖫐 𖫑 𖫒 𖫓 𖫔 𖫕 𖫖 𖫗 𖫘 𖫙 𖫚 𖫛 𖫜 𖫝 𖫞 𖫟 𖫠 𖫡 𖫢 𖫣 𖫤 𖫥 𖫦 𖫧 𖫨
-𖫩 𖫪 𖫫 𖫬 𖫭</p>
+
+<p class="sample">&#X16AD0; &#x16AD1; &#x16AD2; &#x16AD3; &#x16AD4; &#x16AD5; &#x16AD6; &#x16AD7; &#x16AD8; &#x16AD9; &#x16ADA; &#x16ADB; &#x16ADC; &#x16ADD; &#x16ADE; &#x16ADF; &#x16AE0; &#x16AE1; &#x16AE2; &#x16AE3; &#x16AE4; &#x16AE5; &#x16AE6; &#x16AE7; &#x16AE8; &#x16AE9; &#x16AEA; &#x16AEB; &#x16AEC; &#x16AED;</p>
+
+
 <h2>Vowels</h2>
-<p class="sample">𖫧 𖫨 𖫩 𖫪 𖫫 𖫬 𖫭</p>
+
+<p class="sample">
+&#x16AE7; &#x16AE8; &#x16AE9; &#x16AEA; &#x16AEB; &#x16AEC; &#x16AED;
+</p>
+
 <h3>Vowels and tones</h3>
-<p class="sample">𖫧𖫰 𖫧𖫱 𖫧𖫲 𖫧𖫳 𖫧𖫴<br>
-𖫨𖫰 𖫨𖫱 𖫨𖫲 𖫨𖫳 𖫨𖫴<br>
-𖫩𖫰 𖫩𖫱 𖫩𖫲 𖫩𖫳 𖫩𖫴<br>
-𖫪𖫰 𖫪𖫱 𖫪𖫲 𖫪𖫳 𖫪𖫴<br>
-𖫫𖫰 𖫫𖫱 𖫫𖫲 𖫫𖫳 𖫫𖫴<br>
-𖫬𖫰 𖫬𖫱 𖫬𖫲 𖫬𖫳 𖫬𖫴<br>
-𖫭𖫰 𖫭𖫱 𖫭𖫲 𖫭𖫳 𖫭𖫴</p>
-<h3>Alternative tone markers (3rd and 5th tones)</h3>
-<p class="sample"><span class="cv02">𖫲 𖫴 𖫧𖫲 𖫨𖫲 𖫩𖫲 𖫪𖫲 𖫫𖫲 𖫬𖫲
-𖫭𖫲</span><br>
-<span class="cv01">𖫴 𖫲 𖫧𖫴 𖫨𖫴 𖫩𖫴 𖫪𖫴 𖫫𖫴 𖫬𖫴 𖫭𖫴</span></p>
-<h2>Punctuation</h2>
-<p class="sample">𖫵</p>
+<p class="sample">
+&#x16AE7;&#x16AF0; &#x16AE7;&#x16AF1; &#x16AE7;&#x16AF2; &#x16AE7;&#x16AF3; &#x16AE7;&#x16AF4; <br>
+&#x16AE8;&#x16AF0; &#x16AE8;&#x16AF1; &#x16AE8;&#x16AF2; &#x16AE8;&#x16AF3; &#x16AE8;&#x16AF4; <br>
+&#x16AE9;&#x16AF0; &#x16AE9;&#x16AF1; &#x16AE9;&#x16AF2; &#x16AE9;&#x16AF3; &#x16AE9;&#x16AF4; <br>
+&#x16AEA;&#x16AF0; &#x16AEA;&#x16AF1; &#x16AEA;&#x16AF2; &#x16AEA;&#x16AF3; &#x16AEA;&#x16AF4; <br>
+&#x16AEB;&#x16AF0; &#x16AEB;&#x16AF1; &#x16AEB;&#x16AF2; &#x16AEB;&#x16AF3; &#x16AEB;&#x16AF4; <br>
+&#x16AEC;&#x16AF0; &#x16AEC;&#x16AF1; &#x16AEC;&#x16AF2; &#x16AEC;&#x16AF3; &#x16AEC;&#x16AF4; <br>
+&#x16AED;&#x16AF0; &#x16AED;&#x16AF1; &#x16AED;&#x16AF2; &#x16AED;&#x16AF3; &#x16AED;&#x16AF4;
+</p>
+
+<h4>Alternative tone markers (3rd and 5th tones)</h4>
+
+<p class="sample">&#x16AF2; <br> &#x16AF4; </p>
+
+<p class="sample alt">
+<span class="">&#x16AE7;&#x16AF2; &#x16AE8;&#x16AF2; &#x16AE9;&#x16AF2; &#x16AEA;&#x16AF2; &#x16AEB;&#x16AF2; &#x16AEC;&#x16AF2; &#x16AED;&#x16AF2;</span><br>
+
+<span class="">&#x16AE7;&#x16AF4; &#x16AE8;&#x16AF4; &#x16AE9;&#x16AF4; &#x16AEA;&#x16AF4; &#x16AEB;&#x16AF4; &#x16AEC;&#x16AF4; &#x16AED;&#x16AF4;</span>
+</p>
+
+<h3>Punctuation</h3>
+
+<p class="sample">&#x16AF5;
+</p>
+
+
 </div>
 </body>
 </html>
