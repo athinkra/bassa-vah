@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1333915717
-ModificationTime: 1466214169
+ModificationTime: 1466216187
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53917,6 +53917,9 @@ SplineSet
  576 205 576 205 576 191 c 0,60,61
 EndSplineSet
 Validated: 33
+Substitution2: "'ss02' Style Set 2 lookup 4-1" u16AE7_16AF2.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 2-1" u16AE7_16AF2.alt
+Substitution2: "'cv02' Character Variants 02 lookup 1-1" u16AE7_16AF2.alt
 Ligature2: "'rlig' Required Ligatures lookup 0-1" u16AE7 u16AF2
 EndChar
 
@@ -54354,6 +54357,9 @@ SplineSet
  786 0 l 1,30,-1
 EndSplineSet
 Validated: 33
+Substitution2: "'ss01' Style Set 1 lookup 3-1" u16AE7_16AF4.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 2-1" u16AE7_16AF4.alt
+Substitution2: "'cv01' Character Variants 01 lookup 0-1" u16AE7_16AF4.alt
 Ligature2: "'rlig' Required Ligatures lookup 0-1" u16AE7 u16AF4
 EndChar
 
