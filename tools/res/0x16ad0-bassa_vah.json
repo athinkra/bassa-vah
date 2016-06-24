@@ -2,181 +2,224 @@
     {
         "content": [
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad0", 
                 "description": "", 
                 "title": "BASSA VAH LETTER ENNI"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad1", 
                 "description": "", 
                 "title": "BASSA VAH LETTER KA"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad2", 
                 "description": "", 
                 "title": "BASSA VAH LETTER SE"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad3", 
                 "description": "", 
                 "title": "BASSA VAH LETTER FA"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad4", 
                 "description": "", 
                 "title": "BASSA VAH LETTER MBE"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad5", 
                 "description": "", 
                 "title": "BASSA VAH LETTER YIE"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad6", 
                 "description": "", 
                 "title": "BASSA VAH LETTER GAH"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad7", 
                 "description": "", 
                 "title": "BASSA VAH LETTER DHII"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad8", 
                 "description": "", 
                 "title": "BASSA VAH LETTER KPAH"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ad9", 
                 "description": "", 
                 "title": "BASSA VAH LETTER JO"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ada", 
                 "description": "", 
                 "title": "BASSA VAH LETTER HWAH"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16adb", 
                 "description": "", 
                 "title": "BASSA VAH LETTER WA"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16adc", 
                 "description": "", 
                 "title": "BASSA VAH LETTER ZO"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16add", 
                 "description": "", 
                 "title": "BASSA VAH LETTER GBU"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ade", 
                 "description": "", 
                 "title": "BASSA VAH LETTER DO"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16adf", 
                 "description": "", 
                 "title": "BASSA VAH LETTER CE"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae0", 
                 "description": "", 
                 "title": "BASSA VAH LETTER UWU"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae1", 
                 "description": "", 
                 "title": "BASSA VAH LETTER TO"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae2", 
                 "description": "", 
                 "title": "BASSA VAH LETTER BA"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae3", 
                 "description": "", 
                 "title": "BASSA VAH LETTER VU"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae4", 
                 "description": "", 
                 "title": "BASSA VAH LETTER YEIN"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae5", 
                 "description": "", 
                 "title": "BASSA VAH LETTER PA"
             }, 
             {
+                "cat1": "Letters",
                 "charcode": "0x16ae6", 
                 "description": "", 
                 "title": "BASSA VAH LETTER WADDA"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16ae7", 
                 "description": "", 
                 "title": "BASSA VAH LETTER A"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16ae8", 
                 "description": "", 
                 "title": "BASSA VAH LETTER O"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16ae9", 
                 "description": "", 
                 "title": "BASSA VAH LETTER OO"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16aea", 
                 "description": "", 
                 "title": "BASSA VAH LETTER U"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16aeb", 
                 "description": "", 
                 "title": "BASSA VAH LETTER EE"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16aec", 
                 "description": "", 
                 "title": "BASSA VAH LETTER E"
             }, 
             {
+                "cat1": "Letters",
+                "cat2": "Vowels",
                 "charcode": "0x16aed", 
                 "description": "", 
                 "title": "BASSA VAH LETTER I"
             }, 
             {
+                "cat1": "Tone marks",
                 "charcode": "0x16af0", 
                 "description": "", 
                 "title": "BASSA VAH COMBINING HIGH TONE"
             }, 
             {
+                "cat1": "Tone marks",
                 "charcode": "0x16af1", 
                 "description": "", 
                 "title": "BASSA VAH COMBINING LOW TONE"
             }, 
             {
+                "cat1": "Tone marks",
                 "charcode": "0x16af2", 
                 "description": "", 
                 "title": "BASSA VAH COMBINING MID TONE"
             }, 
             {
+                "cat1": "Tone marks",
                 "charcode": "0x16af3", 
                 "description": "", 
                 "title": "BASSA VAH COMBINING LOW-MID TONE"
             }, 
             {
+                "cat1": "Tone marks",
                 "charcode": "0x16af4", 
                 "description": "", 
                 "title": "BASSA VAH COMBINING HIGH-LOW TONE"
             }, 
             {
+                "cat1": "Punctuation",
                 "charcode": "0x16af5", 
                 "description": "", 
                 "title": "BASSA VAH FULL STOP"
