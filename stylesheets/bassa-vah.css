@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Bassa Vah Sans";
+    src: url("../fonts/.ttf");
+}
+
+#buttons button, textarea#input {
+    font-family: "Bassa Vah Sans";
+}
