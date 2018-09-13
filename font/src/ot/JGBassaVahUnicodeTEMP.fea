@@ -1,0 +1,381 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup rligRequiredLigatureslookup0 {
+  lookupflag 0;
+    sub \u16AE7 \u16AF0  by \u16AE7_16AF0;
+    sub \u16AE7 \u16AF1  by \u16AE7_16AF1;
+    sub \u16AE7 \u16AF2  by \u16AE7_16AF2;
+    sub \u16AE7 \u16AF3  by \u16AE7_16AF3;
+    sub \u16AE7 \u16AF4  by \u16AE7_16AF4;
+    sub \u16AE7 \u16AF4.alt  by \u16AE7_16AF4.alt;
+    sub \u16AE7 \u16AF2.alt  by \u16AE7_16AF2.alt;
+} rligRequiredLigatureslookup0;
+
+lookup ss01StyleSet1lookup1 {
+  lookupflag 0;
+    sub \u16AF4 by \u16AF4.alt ;
+    sub \u16AE7_16AF4 by \u16AE7_16AF4.alt ;
+} ss01StyleSet1lookup1;
+
+lookup ss02StyleSet2lookup2 {
+  lookupflag 0;
+    sub \u16AF2 by \u16AF2.alt ;
+    sub \u16AE7_16AF2 by \u16AE7_16AF2.alt ;
+} ss02StyleSet2lookup2;
+
+lookup aaltAccessAllAlternateslookup3 {
+  lookupflag 0;
+    sub \u16AF2 from [\u16AF2.alt ];
+    sub \u16AF4 from [\u16AF4.alt ];
+    sub \u16AE7_16AF2 from [\u16AE7_16AF2.alt ];
+    sub \u16AE7_16AF4 from [\u16AE7_16AF4.alt ];
+} aaltAccessAllAlternateslookup3;
+
+lookup cv02CharacterVariants02lookup4 {
+  lookupflag 0;
+    sub \u16AF2 by \u16AF2.alt ;
+    sub \u16AE7_16AF2 by \u16AE7_16AF2.alt ;
+} cv02CharacterVariants02lookup4;
+
+lookup cv01CharacterVariants01lookup5 {
+  lookupflag 0;
+    sub \u16AF4 by \u16AF4.alt ;
+    sub \u16AE7_16AF4 by \u16AE7_16AF4.alt ;
+} cv01CharacterVariants01lookup5;
+
+feature rlig {
+
+ script DFLT;
+     language dflt ;
+      lookup rligRequiredLigatureslookup0;
+} rlig;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup1;
+} ss01;
+
+feature ss02 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup2;
+} ss02;
+
+feature aalt {
+
+ script DFLT;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup3;
+} aalt;
+
+feature cv02 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv02CharacterVariants02lookup4;
+} cv02;
+
+feature cv01 {
+
+ script DFLT;
+     language dflt ;
+      lookup cv01CharacterVariants01lookup5;
+} cv01;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    pos \O \adieresis -91;
+    pos \O \acircumflex -91;
+    pos \O \aacute -91;
+    pos \O \agrave -91;
+    pos \O \Odieresis -44;
+    pos \O \Ocircumflex -44;
+    pos \O \Oacute -44;
+    pos \O \Ograve -44;
+    pos \O \r -22;
+    pos \O \p -111;
+    pos \O \a -91;
+    pos \a \adieresis -103;
+    pos \a \acircumflex -103;
+    pos \a \aacute -103;
+    pos \a \agrave -103;
+    pos \a \p -63;
+    pos \a \a -103;
+    pos \b \acircumflex -105;
+    pos \b \aacute -105;
+    pos \b \agrave -105;
+    pos \b \p -159;
+    pos \b \n -52;
+    pos \b \l -23;
+    pos \b \a -105;
+    pos \d \adieresis -153;
+    pos \d \acircumflex -153;
+    pos \d \aacute -153;
+    pos \d \agrave -153;
+    pos \d \p -143;
+    pos \d \a -153;
+    pos \f \adieresis -52;
+    pos \f \acircumflex -52;
+    pos \f \aacute -52;
+    pos \f \agrave -52;
+    pos \f \p -79;
+    pos \f \a -52;
+    pos \i \adieresis -150;
+    pos \i \acircumflex -150;
+    pos \i \aacute -150;
+    pos \i \agrave -150;
+    pos \i \Odieresis -60;
+    pos \i \Ocircumflex -60;
+    pos \i \Oacute -60;
+    pos \i \Ograve -60;
+    pos \i \v -87;
+    pos \i \p -95;
+    pos \i \n -92;
+    pos \i \a -150;
+    pos \i \O -60;
+    pos \j \adieresis -65;
+    pos \j \acircumflex -65;
+    pos \j \aacute -65;
+    pos \j \agrave -65;
+    pos \j \p -127;
+    pos \j \a -65;
+    pos \l \adieresis -120;
+    pos \l \acircumflex -120;
+    pos \l \aacute -120;
+    pos \l \agrave -120;
+    pos \l \p -127;
+    pos \l \a -120;
+    pos \r \adieresis -87;
+    pos \r \acircumflex -87;
+    pos \r \aacute -87;
+    pos \r \agrave -87;
+    pos \r \v -13;
+    pos \r \p -125;
+    pos \r \a -87;
+    pos \t \adieresis -143;
+    pos \t \acircumflex -143;
+    pos \t \aacute -143;
+    pos \t \agrave -143;
+    pos \t \p -111;
+    pos \t \a -143;
+    pos \v \adieresis -184;
+    pos \v \acircumflex -184;
+    pos \v \aacute -184;
+    pos \v \agrave -184;
+    pos \v \Edieresis -93;
+    pos \v \Ecircumflex -93;
+    pos \v \Eacute -93;
+    pos \v \Egrave -93;
+    pos \v \x -64;
+    pos \v \w -78;
+    pos \v \r -38;
+    pos \v \p -159;
+    pos \v \j -123;
+    pos \v \a -184;
+    pos \v \E -93;
+    pos \v \B -119;
+    pos \w \adieresis -112;
+    pos \w \acircumflex -112;
+    pos \w \aacute -112;
+    pos \w \agrave -112;
+    pos \w \p -63;
+    pos \w \a -112;
+    pos \x \adieresis -197;
+    pos \x \acircumflex -197;
+    pos \x \aacute -197;
+    pos \x \agrave -197;
+    pos \x \Edieresis -84;
+    pos \x \Ecircumflex -84;
+    pos \x \Eacute -84;
+    pos \x \Egrave -84;
+    pos \x \p -207;
+    pos \x \a -197;
+    pos \x \E -84;
+    pos \x \B -97;
+    pos \z \adieresis -32;
+    pos \z \acircumflex -32;
+    pos \z \aacute -32;
+    pos \z \agrave -32;
+    pos \z \p -47;
+    pos \z \a -32;
+    pos \Ograve \adieresis -91;
+    pos \Ograve \acircumflex -91;
+    pos \Ograve \aacute -91;
+    pos \Ograve \agrave -91;
+    pos \Ograve \Odieresis -44;
+    pos \Ograve \Ocircumflex -44;
+    pos \Ograve \Oacute -44;
+    pos \Ograve \p -111;
+    pos \Ograve \a -91;
+    pos \Oacute \adieresis -91;
+    pos \Oacute \acircumflex -91;
+    pos \Oacute \aacute -91;
+    pos \Oacute \agrave -91;
+    pos \Oacute \Odieresis -44;
+    pos \Oacute \Ocircumflex -44;
+    pos \Oacute \Oacute -44;
+    pos \Oacute \Ograve -44;
+    pos \Oacute \p -111;
+    pos \Oacute \a -91;
+    pos \Ocircumflex \adieresis -91;
+    pos \Ocircumflex \acircumflex -91;
+    pos \Ocircumflex \aacute -91;
+    pos \Ocircumflex \agrave -91;
+    pos \Ocircumflex \Odieresis -44;
+    pos \Ocircumflex \Ocircumflex -44;
+    pos \Ocircumflex \Oacute -44;
+    pos \Ocircumflex \Ograve -44;
+    pos \Ocircumflex \p -111;
+    pos \Ocircumflex \a -91;
+    pos \Odieresis \adieresis -91;
+    pos \Odieresis \acircumflex -91;
+    pos \Odieresis \aacute -91;
+    pos \Odieresis \agrave -91;
+    pos \Odieresis \Odieresis -44;
+    pos \Odieresis \Ocircumflex -44;
+    pos \Odieresis \Oacute -44;
+    pos \Odieresis \Ograve -44;
+    pos \Odieresis \p -111;
+    pos \Odieresis \a -91;
+    pos \agrave \adieresis -103;
+    pos \agrave \acircumflex -103;
+    pos \agrave \aacute -103;
+    pos \agrave \agrave -103;
+    pos \agrave \p -63;
+    pos \agrave \a -103;
+    pos \aacute \adieresis -103;
+    pos \aacute \acircumflex -103;
+    pos \aacute \aacute -103;
+    pos \aacute \agrave -103;
+    pos \aacute \p -63;
+    pos \aacute \a -103;
+    pos \acircumflex \adieresis -103;
+    pos \acircumflex \acircumflex -103;
+    pos \acircumflex \aacute -103;
+    pos \acircumflex \agrave -103;
+    pos \acircumflex \p -63;
+    pos \acircumflex \a -103;
+    pos \adieresis \adieresis -103;
+    pos \adieresis \acircumflex -103;
+    pos \adieresis \aacute -103;
+    pos \adieresis \agrave -103;
+    pos \adieresis \p -63;
+    pos \adieresis \a -103;
+    pos \igrave \adieresis -150;
+    pos \igrave \acircumflex -150;
+    pos \igrave \aacute -150;
+    pos \igrave \agrave -150;
+    pos \igrave \Odieresis -60;
+    pos \igrave \Ocircumflex -60;
+    pos \igrave \Oacute -60;
+    pos \igrave \Ograve -60;
+    pos \igrave \v -87;
+    pos \igrave \p -95;
+    pos \igrave \n -92;
+    pos \igrave \a -150;
+    pos \igrave \O -60;
+    pos \iacute \adieresis -150;
+    pos \iacute \acircumflex -150;
+    pos \iacute \aacute -150;
+    pos \iacute \agrave -150;
+    pos \iacute \Odieresis -60;
+    pos \iacute \Ocircumflex -60;
+    pos \iacute \Oacute -60;
+    pos \iacute \Ograve -60;
+    pos \iacute \v -87;
+    pos \iacute \p -95;
+    pos \iacute \n -92;
+    pos \iacute \a -150;
+    pos \iacute \O -60;
+    pos \icircumflex \adieresis -150;
+    pos \icircumflex \acircumflex -150;
+    pos \icircumflex \aacute -150;
+    pos \icircumflex \agrave -150;
+    pos \icircumflex \Odieresis -60;
+    pos \icircumflex \Ocircumflex -60;
+    pos \icircumflex \Oacute -60;
+    pos \icircumflex \Ograve -60;
+    pos \icircumflex \v -87;
+    pos \icircumflex \p -95;
+    pos \icircumflex \n -92;
+    pos \icircumflex \a -150;
+    pos \icircumflex \O -60;
+    pos \idieresis \adieresis -150;
+    pos \idieresis \acircumflex -150;
+    pos \idieresis \aacute -150;
+    pos \idieresis \agrave -150;
+    pos \idieresis \Odieresis -60;
+    pos \idieresis \Ocircumflex -60;
+    pos \idieresis \Oacute -60;
+    pos \idieresis \Ograve -60;
+    pos \idieresis \v -87;
+    pos \idieresis \p -95;
+    pos \idieresis \n -92;
+    pos \idieresis \a -150;
+    pos \idieresis \O -60;
+} kernHorizontalKerninginLatinlookup0;
+
+feature kern {
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \NULL \space \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at \A \B 
+	\C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o 
+	\p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright \asciitilde \uni00A0 
+	\exclamdown \cent \sterling \currency \yen \brokenbar \section \dieresis 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD \registered 
+	\macron \degree \plusminus \twosuperior \threesuperior \acute \mu \paragraph 
+	\periodcentered \cedilla \onesuperior \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \quoteleft \quoteright \quotesinglbase 
+	\quotereversed \quotedblleft \quotedblright \quotedblbase \u16AD0 \u16AD1 
+	\u16AD2 \u16AD3 \u16AD4 \u16AD5 \u16AD6 \u16AD7 \u16AD8 \u16AD9 \u16ADA \u16ADB 
+	\u16ADC \u16ADD \u16ADE \u16ADF \u16AE0 \u16AE1 \u16AE2 \u16AE3 \u16AE4 \u16AE5 
+	\u16AE6 \u16AE7 \u16AE8 \u16AE9 \u16AEA \u16AEB \u16AEC \u16AED \u16AF0 \u16AF1 
+	\u16AF2 \u16AF3 \u16AF4 \u16AF5.alt \u16AF5 \Euro \florin \dagger \daggerdbl 
+	\circumflex \perthousand \Scaron \guilsinglleft \OE \bullet \endash \emdash 
+	\tilde \trademark \scaron \guilsinglright \oe \Ydieresis \u16AF4.alt 
+	\u16AF2.alt \u16AE8_16AF0 \u16AE8_16AF1 \u16AE8_16AF2 \u16AE8_16AF3 
+	\u16AE8_16AF4 \u16AE8_16AF4.alt \u16AE8_16AF2.alt \u16AE9_16AF0 
+	\u16AE9_16AF1 \u16AE9_16AF2 \u16AE9_16AF3 \u16AE9_16AF4 \u16AE9_16AF4.alt 
+	\u16AE9_16AF2.alt \u16AEA_16AF0 \u16AEA_16AF1 \u16AEA_16AF2 \u16AEA_16AF3 
+	\u16AEA_16AF4 \u16AEA_16AF4.alt \u16AEA_16AF2.alt \u16AEB_16AF0 
+	\u16AEB_16AF1 \u16AEB_16AF2 \u16AEB_16AF3 \u16AEB_16AF4 \u16AEB_16AF4.alt 
+	\u16AEB_16AF2.alt \u16AEC_16AF0 \u16AEC_16AF1 \u16AEC_16AF2 \u16AEC_16AF3 
+	\u16AEC_16AF4 \u16AEC_16AF4.alt \u16AEC_16AF2.alt \u16AED_16AF0 
+	\u16AED_16AF1 \u16AED_16AF2 \u16AED_16AF3 \u16AED_16AF4 \u16AED_16AF4.alt 
+	\u16AED_16AF2.alt ];
+@GDEF_Ligature = [\u16AE7_16AF0 \u16AE7_16AF1 \u16AE7_16AF2 \u16AE7_16AF3 
+	\u16AE7_16AF4 \u16AE7_16AF4.alt \u16AE7_16AF2.alt ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+
